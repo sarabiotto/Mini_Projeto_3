@@ -1,0 +1,11 @@
+meu_projeto_api/
+│
+├── README.md
+├── requirements.txt
+│
+├── server/        # Servidor da API
+│   └├── main.py
+│       └── __init__.py
+│
+└── cliente/        # Cliente que consome a API
+    └── main.py

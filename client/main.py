@@ -1,5 +1,4 @@
 import os
-
 import requests
 from dotenv import load_dotenv
 
@@ -15,7 +14,7 @@ def listar_livros():
 
     if response.status_code == 200:
 
-        print("\n📚 Lista de livros disponíveis:\n")
+        print("\n Lista de livros disponíveis:\n")
 
         for livro in response.json():
 
@@ -37,7 +36,7 @@ def buscar_livro(titulo):
 
         livro = response.json()
 
-        print("\n🔎 Livro encontrado:\n")
+        print("\n Livro encontrado:\n")
 
         print(
             f"{livro['titulo']} - "
@@ -46,7 +45,7 @@ def buscar_livro(titulo):
         )
 
     else:
-        print("\n❌ Livro não encontrado")
+        print("\n Livro não encontrado")
 
 
 if __name__ == "__main__":

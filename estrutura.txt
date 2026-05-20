@@ -1,9 +1,16 @@
-Mini_Projeto_3/
+meu_projeto_api/
 │
-├── venv/                # ambiente virtual
+├── README.md
+├── requirements.txt
 │
 ├── server/
-│   └── main.py          # servidor FastAPI
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   ├── livros.csv
+│   │
+│   └── .env.example
 │
 └── client/
-    └── main.py          # cliente Python
+    ├── main.py
+    └── .env.example

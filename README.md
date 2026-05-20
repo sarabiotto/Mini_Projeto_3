@@ -1,7 +1,7 @@
 ````md
 # Mini Projeto 3 - Consumo de APIs com Python
 
-Projeto desenvolvido para a disciplina de Estrutura de Dados utilizando Python, FastAPI e Requests.
+Projeto desenvolvido para a disciplina de Linguagem de Programação II utilizando Python, FastAPI e Requests.
 
 ## 📚 Objetivo
 
